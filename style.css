@@ -10,6 +10,32 @@ h1 {
 	color: #333333;
 }
 
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.profile img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.profile h2 {
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #333333;
+}
+
+.profile p {
+	font-size: 20px;
+	margin: 0;
+	color: #666666;
+}
+
 .container {
 	max-width: 600px;
 	margin: 0 auto;
@@ -36,36 +62,4 @@ h1 {
 	align-items: center;
 	text-decoration: none;
 	color: #333333;
-	transition: all 0.3s ease;
-}
-
-.link:hover {
-	transform: translateY(-5px);
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.link img {
-	width: 100px;
-	height: 100px;
-	margin-bottom: 10px;
-}
-
-.link h3 {
-	font-size: 24px;
-	margin-bottom: 5px;
-}
-
-.link p {
-	font-size: 16px;
-}
-
-@media screen and (max-width: 480px) {
-	.container {
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.link {
-		width: 80%;
-		height: auto;
-		margin:
+	transition:
