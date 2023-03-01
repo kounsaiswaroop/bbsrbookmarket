@@ -167,7 +167,7 @@ h1 {
 	.link {
 		width: 90%;
 		height: auto;
-		margin: 10px 0;
+		margin: 15px 0;
 		flex-direction: row;
 		justify-content: space-between;
 	}
