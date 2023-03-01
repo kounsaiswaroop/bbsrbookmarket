@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #F5F5F5;
+	background: linear-gradient(to bottom right, #FFD900, #FFA500);
 }
 
 h1 {
@@ -58,3 +58,14 @@ h1 {
 .link p {
 	font-size: 16px;
 }
+
+@media screen and (max-width: 480px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.link {
+		width: 80%;
+		height: auto;
+		margin:
