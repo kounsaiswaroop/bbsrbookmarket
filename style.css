@@ -103,4 +103,14 @@ h1 {
 		margin-right: 0;
 		margin-bottom: 0;
 	}
+
+	.link p {
+		display: none;
+	  }
+
+	.link h3 {
+		font-size: 20px;
+		margin-left: 20px;
+		flex-grow: 1;
+	}
 }
