@@ -185,12 +185,13 @@ h1 {
 	}
 	
 	.link {
-		width: 90%;
+		width: 95%;
 		height: auto;
 		margin: 10px 0;
 		flex-direction: row;
 		justify-content: space-between;
 		transition: all 0.3s ease;
+		text-align: center;
 	}
 	
 	.link img {
@@ -204,7 +205,7 @@ h1 {
 
 	.link h3 {
 		font-size: 20px;
-		margin-left: 20px;
+		margin-left: -30px;
 		flex-grow: 1;
 	}
 	.profile img {
