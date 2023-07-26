@@ -93,9 +93,9 @@ h1 {
 
 .link {
 	background-color: #FFFFFF;
-	padding: 20px;
+	padding: 10px;
 	margin: 15px;
-	border-radius: 10px;
+	border-radius: 100px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	text-align: left;
 	width: 70%;
@@ -109,8 +109,10 @@ h1 {
 }
 
 .link:hover {
-	transform: translateY(-5px);
+	transform: scale(1.05);
+	/* transform: translateY(-5px); */
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .link img {
@@ -188,6 +190,7 @@ h1 {
 		margin: 10px 0;
 		flex-direction: row;
 		justify-content: space-between;
+		transition: all 0.3s ease;
 	}
 	
 	.link img {
