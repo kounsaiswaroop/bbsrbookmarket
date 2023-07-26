@@ -12,6 +12,8 @@ body {
 	background-image: url(rain.png);
 	animation: rain 0.3s linear infinite;
 	position: relative; 
+	margin: 0;
+	padding:10px;
   }
   
   @keyframes rain {
@@ -84,7 +86,7 @@ h1 {
 
 .profile h2 {
 	font-size: 28px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	margin-bottom: 10px;
 	color: #FFFFFF; 
   }
@@ -132,7 +134,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 30px;
+	/* margin-top: 30px; */
 }
 
 .profile img {
@@ -226,7 +228,7 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 20px;
+		/* margin-top: 20px; */
 	}
 	.profile img {
 		width: auto;
