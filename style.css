@@ -27,13 +27,13 @@ body {
   
   .rain::before {
 	content: "";
-	/* position: absolute; */
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	background-image: url(lightning.png); 
 	top: -100px;
 	transform: rotate(180deg);
-	animation: lightning 4s linear infinite; 
+	animation: lightning 2s linear infinite; 
 	opacity: 1;
 	z-index: -1; 
   }
