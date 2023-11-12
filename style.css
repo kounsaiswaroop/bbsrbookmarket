@@ -27,7 +27,7 @@ body {
   
   .rain::before {
 	content: "";
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
 	height: 100%;
 	background-image: url(lightning.png); 
@@ -233,11 +233,10 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		/* margin-top: 20px; */
 	}
 	.profile img {
 		width: auto;
-		height: 120px;
+		height: 185px;
 		border-radius: 50%;
 	}
 	.profile h2 {
@@ -251,7 +250,7 @@ h1 {
 	h1 {
 		text-align: center;
 		margin-top: 10px;
-		font-size: 24px;
+		font-size: 30px;
 		color: #ffffff;
 		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
