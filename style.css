@@ -33,7 +33,7 @@ body {
 	background-image: url(lightning.png); 
 	top: -100px;
 	transform: rotate(180deg);
-	animation: lightning 2s linear infinite; 
+	animation: lightning 3s linear infinite; 
 	opacity: 1;
 	z-index: -1; 
   }
