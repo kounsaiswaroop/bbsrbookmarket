@@ -2,14 +2,14 @@ body {
 	font-family: Verdana, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-image: url(background.jpg);
+	background-image: url(Images/background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
   }
   
   .rain {
 	height: 100%;
-	background-image: url(rain.png);
+	background-image: url(Images/rain.png);
 	animation: rain 0.3s linear infinite;
 	position: relative; 
 	margin: 0;
@@ -30,7 +30,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-image: url(lightning.png); 
+	background-image: url(Images/lightning.png); 
 	top: -100px;
 	transform: rotate(180deg);
 	animation: lightning 3s linear infinite; 
