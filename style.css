@@ -2,7 +2,7 @@ body {
 	font-family: 'Newsreader', Georgia, serif;
 	margin: 0;
 	padding: 0;
-	background-image: url(Images/background-min.jpg);
+	background-image: url(Images/background-min.webp);
 	background-size: cover;
 	background-attachment: fixed;
 }
